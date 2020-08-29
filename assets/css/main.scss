@@ -1,8 +1,6 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-sitemap: false
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
 ---
 
-@charset "utf-8";
-
-@import "so-simple";
+@import "hydeout";
